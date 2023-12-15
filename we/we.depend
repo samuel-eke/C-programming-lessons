@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1685541553 source:c:\users\aptech lessons\desktop\c programming box\we\main.c
+	<stdio.h>
+	<stdlib.h>
+
