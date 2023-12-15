@@ -1,5 +1,10 @@
 #include <stdio.h>
-void swap(int *x, int *y);
+void swap(int *x, int *y) {
+int temp;
+temp = *x;
+*x = *y;
+*y = temp;
+}
 int main()
 {
     int i, j;
@@ -10,12 +15,7 @@ int main()
     printf("i and j after swapping: %d %d\n", i, j);
     return 0;
 }
-void swap(int *x, int *y) {
-int temp;
-temp = *x;
-*x = *y;
-*y = temp;
-}
+
 //int main ()
 //{
 //    char stri[10];
